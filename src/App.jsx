@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 
 import NavBar from './components/NavBar'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
 
-           <Route path="/destination" element={<DestinationPage />} />
+           <Route path="/destinations" element={<DestinationPage />} />
 
            <Route path="/crew" element={<CrewPage />} />
 

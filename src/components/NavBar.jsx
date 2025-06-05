@@ -13,7 +13,7 @@ function NavBar() {
 
         <ul class="flex gap-5">
             <a href="/"><li class="text-white text-sm py-8 hover:border-b-2 ">00 HOME</li></a>
-            <a href="/destination"><li class="text-white text-sm py-8 hover:border-b-2 ">01 DESTINATION</li></a>
+            <a href="/destinations"><li class="text-white text-sm py-8 hover:border-b-2 ">01 DESTINATION</li></a>
             <a href="#"><li class="text-white text-sm py-8 hover:border-b-2 ">02 CREW</li></a>
             <a href="#"><li class="text-white text-sm py-8 hover:border-b-2 ">03 TECHNOLOGY</li></a>
         </ul>
