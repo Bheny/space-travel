@@ -1,5 +1,5 @@
 import bg from '../assets/destination/background-destination-desktop.jpg'
-import moon from '../assets/destination/image-moon.png'
+
 import data from '../data.json'
 
 import { useState } from 'react'
@@ -10,6 +10,8 @@ export default function DestinationPage() {
 
     //load all the destinations into this state 
     const [destinations, setDestinations] = useState(data.destinations)
+
+    // setDestinations(data.destinations)
 
     // listens and waits for the selected destination to change
     const [selectedDestination, setSelectedDestination] = useState(destinations[0])
